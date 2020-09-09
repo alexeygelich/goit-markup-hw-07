@@ -1,19 +1,24 @@
 .clients {
   margin-top: 94px;
   margin-bottom: 94px;
-}
 
-.clients-list {
-  display: flex;
-}
+  &-container {
+    @extend %container;
+  }
 
-.clients-item:not(:last-child) {
-  margin-right: 30px;
-}
+  &-list {
+    @extend %list;
+    display: flex;
+  }
 
-.clients-svg {
-  fill: #afb1b8;
-  transition: fill $time-transition $function-time;
+  &-item:not(:last-child) {
+    margin-right: 30px;
+  }
+
+  &-svg {
+    fill: #afb1b8;
+    transition: fill $time-transition $function-time;
+  }
 }
 
 .clients-link {
@@ -26,14 +31,14 @@
   box-sizing: border-box;
   border-radius: 4px;
   transition: border-color $time-transition $function-time;
-}
 
-.clients-link:hover,
-.clients-link:focus {
-  border-color: $accent-color;
-}
+  &:hover,
+  &:focus {
+    border-color: $accent-color;
+  }
 
-.clients-link:hover .clients-svg,
-.clients-link:focus .clients-svg {
-  fill: $accent-color;
+  &:hover .clients-svg,
+  &:focus .clients-svg {
+    fill: $accent-color;
+  }
 }

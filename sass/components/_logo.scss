@@ -9,14 +9,14 @@
   letter-spacing: 0.03em;
 
   color: $title-color;
-}
 
-.logo-accent {
-  color: $accent-color;
-}
+  &-accent {
+    color: $accent-color;
+  }
 
-.footer .logo {
-  margin-right: 0;
-  margin-bottom: 30px;
-  color: $white-color;
+  .footer & {
+    margin-right: 0;
+    margin-bottom: 30px;
+    color: $white-color;
+  }
 }

@@ -10,13 +10,14 @@
       rgba(47, 48, 58, 0.4)
     ),
     url('../image/hero-Img.jpg');
-}
 
-.hero .container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  &-container {
+    @extend %container;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 .main-title {

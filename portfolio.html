@@ -3,14 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-      rel="stylesheet"
-    />
     <link rel="stylesheet" href="./css/portfolio.min.css" />
     <title>Portfolio</title>
   </head>
@@ -67,29 +59,29 @@
 
     <main>
       <section class="portfolio">
-        <div class="container">
+        <div class="portfolio-container">
           <!-- Фильтр -->
 
-          <ul class="filter list">
-            <li class="item"><a href="" class="link filter-link">Все</a></li>
+          <ul class="filter">
+            <li class="item"><a href="" class="filter-link">Все</a></li>
             <li class="item">
-              <a href="" class="link filter-link">Веб-сайты</a>
+              <a href="" class="filter-link">Веб-сайты</a>
             </li>
             <li class="item">
-              <a href="" class="link filter-link">Приложения</a>
+              <a href="" class="filter-link">Приложения</a>
             </li>
-            <li class="item"><a href="" class="link filter-link">Дизайн</a></li>
+            <li class="item"><a href="" class="filter-link">Дизайн</a></li>
             <li class="item">
-              <a href="" class="link filter-link">Маркетинг</a>
+              <a href="" class="filter-link">Маркетинг</a>
             </li>
           </ul>
 
           <!-- Карточки -->
 
-          <ul class="list cards">
+          <ul class="cards">
             <li class="item">
-              <a href="" class="cards-link link">
-                <div class="card-block">
+              <a href="" class="cards-link">
+                <div class="cards-block">
                   <img
                     src="./image/sait.jpg"
                     alt="Веб-сайт компании"
@@ -111,8 +103,8 @@
               </a>
             </li>
             <li class="item">
-              <a href="" class="cards-link link">
-                <div class="card-block">
+              <a href="" class="cards-link">
+                <div class="cards-block">
                   <img
                     src="./image/basketball.jpg"
                     alt="Дизайн постера"
@@ -134,8 +126,8 @@
               </a>
             </li>
             <li class="item">
-              <a href="" class="cards-link link">
-                <div class="card-block">
+              <a href="" class="cards-link">
+                <div class="cards-block">
                   <img
                     src="./image/restaurant.jpg"
                     alt="Приложение для ресторана"
@@ -157,8 +149,8 @@
               </a>
             </li>
             <li class="item">
-              <a href="" class="cards-link link">
-                <div class="card-block">
+              <a href="" class="cards-link">
+                <div class="cards-block">
                   <img
                     src="./image/naushniki.jpg"
                     alt="Наушники"
@@ -180,8 +172,8 @@
               </a>
             </li>
             <li class="item">
-              <a href="" class="cards-link link">
-                <div class="card-block">
+              <a href="" class="cards-link">
+                <div class="cards-block">
                   <img
                     src="./image/boxes.jpg"
                     alt="Две коробки"
@@ -203,8 +195,8 @@
               </a>
             </li>
             <li class="item">
-              <a href="" class="cards-link link">
-                <div class="card-block">
+              <a href="" class="cards-link">
+                <div class="cards-block">
                   <img
                     src="./image/karta.jpg"
                     alt="Веб-сайт"
@@ -226,8 +218,8 @@
               </a>
             </li>
             <li class="item">
-              <a href="" class="cards-link link">
-                <div class="card-block">
+              <a href="" class="cards-link">
+                <div class="cards-block">
                   <img
                     src="./image/izdanie.jpg"
                     alt="Дизайн для издания"
@@ -249,8 +241,8 @@
               </a>
             </li>
             <li class="item">
-              <a href="" class="cards-link link">
-                <div class="card-block">
+              <a href="" class="cards-link">
+                <div class="cards-block">
                   <img
                     src="./image/lab.jpg"
                     alt="Проект LAB"
@@ -272,8 +264,8 @@
               </a>
             </li>
             <li class="item">
-              <a href="" class="cards-link link">
-                <div class="card-block">
+              <a href="" class="cards-link">
+                <div class="cards-block">
                   <img
                     src="./image/noutbook.jpg"
                     alt="Ноутбук"
@@ -302,28 +294,30 @@
     <!-- Footer -->
 
     <footer class="footer">
-      <div class="container">
+      <div class="footer-container">
         <div class="address">
-          <a lang="en" href="./index.html" class="logo link"
+          <a lang="en" href="./index.html" class="logo"
             ><span class="logo-accent">Web</span>Studio</a
           >
           <address>
-            <ul class="footer-address list">
+            <ul class="footer-address">
               <li class="item">
                 <a
                   href="https://goo.gl/maps/jd2Q6fffBSF1kD2X9"
-                  class="link contact-address"
+                  class="footer-address__link"
                   target="_blank"
                   >г. Киев, пр-т Леси Украинки, 26</a
                 >
               </li>
               <li class="item">
-                <a href="mailto:info@example.com" class="link"
+                <a href="mailto:info@example.com" class="footer-address__link"
                   >info@example.com</a
                 >
               </li>
               <li class="item">
-                <a href="tel:+380991111111" class="link">+38 099 111 11 11</a>
+                <a href="tel:+380991111111" class="footer-address__link"
+                  >+38 099 111 11 11</a
+                >
               </li>
             </ul>
           </address>
@@ -333,30 +327,30 @@
 
         <div class="join">
           <b class="join-title">присоединяйтесь</b>
-          <ul class="social-list list">
+          <ul class="social">
             <li class="social-item">
-              <a class="social-link link" href="">
+              <a class="social-link" href="">
                 <svg class="social-svg" width="20" height="20">
                   <use href="./image/sprite.svg#icon-instagram"></use>
                 </svg>
               </a>
             </li>
             <li class="social-item">
-              <a class="social-link link" href="">
+              <a class="social-link" href="">
                 <svg class="social-svg" width="20" height="20">
                   <use href="./image/sprite.svg#icon-twitter"></use>
                 </svg>
               </a>
             </li>
             <li class="social-item">
-              <a class="social-link link" href="">
+              <a class="social-link" href="">
                 <svg class="social-svg" width="20" height="20">
                   <use href="./image/sprite.svg#icon-facebook"></use>
                 </svg>
               </a>
             </li>
             <li class="social-item">
-              <a class="social-link link" href="">
+              <a class="social-link" href="">
                 <svg class="social-svg" width="20" height="20">
                   <use href="./image/sprite.svg#icon-linkedin"></use>
                 </svg>
