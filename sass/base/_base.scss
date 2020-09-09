@@ -9,13 +9,13 @@ body {
   color: $main-color;
 }
 
-.list {
+%list {
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
-.link {
+%link {
   display: block;
   text-decoration: none;
   font-style: normal;
@@ -50,7 +50,7 @@ body {
   color: $title-color;
 }
 
-.container {
+%container {
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;

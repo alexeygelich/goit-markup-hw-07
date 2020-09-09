@@ -1,0 +1,33 @@
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: $bgc-footer;
+}
+
+.footer .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer .address {
+  margin-right: 70px;
+  margin-left: 0;
+}
+
+.footer-address {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.footer-address .link {
+  color: $footer-color;
+}
+
+.footer-address .contact-address {
+  color: $white-color;
+}
+
+.footer-address .item:not(:last-child) {
+  margin-bottom: 9px;
+}
